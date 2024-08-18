@@ -3,7 +3,7 @@ import time
 import pyautogui
 import keyboard
 
-click_interval = 3
+click_interval = 5
 
 while True:
     current_x, current_y = pyautogui.position()
