@@ -1,5 +1,7 @@
 # Bing-Auto-Search
-This is a script designed to maximize your microsoft rewards points while being AFK. This script searches automatically in your Bing browser (or any other) with just one click. You can change the delay to search faster or slower.
+This is a script designed to maximize your microsoft rewards points while being AFK. This script searches automatically in your Bing browser (or any other) with just one click, you can change the delay to search faster or slower.
+
+It works by writing for you a random combination of letters. Now Bing detects if you're actually writing, so many scripts do not work anymore, exept this one.
 # How to execute
 ## Execute these commands in the terminal:
 `pip install pyautogui`
