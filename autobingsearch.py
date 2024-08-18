@@ -3,7 +3,7 @@ import time
 import pyautogui
 import keyboard
 
-click_interval = 5
+click_interval = 3
 
 while True:
     current_x, current_y = pyautogui.position()
@@ -15,7 +15,6 @@ while True:
         
     words = get_list_of_words('words.txt')
     random_word = random.choice(words)
-    letter = list(random_word)
     output = random.sample(random_word, len(random_word))
     pyautogui.typewrite(output, interval=0.05)
     keyboard.send("enter")
