@@ -13,10 +13,7 @@ while True:
         with open(path, 'r', encoding='utf-8') as f:
             return f.read().splitlines()
 
-
     words = get_list_of_words('words.txt')
-    print(words)
-
     random_word = random.choice(words)
     letter = list(random_word)
     random.shuffle(letter)
