@@ -12,17 +12,16 @@ while True:
     def get_list_of_words(path):
         with open(path, 'r', encoding='utf-8') as f:
             return f.read().splitlines()
-
+        
     words = get_list_of_words('words.txt')
     random_word = random.choice(words)
     letter = list(random_word)
-    random.shuffle(letter)
-    word = random_word + ''.join(letter) + random_word
-    pyautogui.typewrite(word, interval=0.05)
+    output = random.sample(random_word, len(random_word))
+    pyautogui.typewrite(output, interval=0.05)
     keyboard.send("enter")
     time.sleep(2)
     
     pyautogui.doubleClick(current_x, current_y)
     keyboard.send("backspace")
     
-    time.sleep(2)
+    time.sleep(1)
