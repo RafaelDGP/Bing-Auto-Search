@@ -25,8 +25,7 @@ while True:
     keyboard.send("enter")
     time.sleep(2)
     
-    pyautogui.click(current_x, current_y)
-    pyautogui.click(current_x, current_y)
+    pyautogui.doubleClick(current_x, current_y)
     keyboard.send("backspace")
     
     time.sleep(2)
