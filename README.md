@@ -5,15 +5,15 @@ It works by writing for you a random combination of letters.
 > [!NOTE]
 > Now Bing detects if you're actually writing, so many scripts do not work anymore, exept this one.
 # How to execute
+## Execute these commands in the terminal:
+- `pip install pyautogui`
+- `pip install keyboard`
 Download both files and run the **autobingsearch.py** in your compiler
 > [!NOTE]
 > If it doesn't work, try putting both files in a folder and opening the folder in your compiler.
 
 > [!IMPORTANT]
 > **Execute with your cursor on the Bing search bar.**
-## Execute these commands in the terminal:
-- `pip install pyautogui`
-- `pip install keyboard`
 # Customization
 > [!NOTE]
 > ## You can change the delay for the first click and for the next search:
