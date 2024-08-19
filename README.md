@@ -6,7 +6,7 @@ It works by writing for you a random combination of letters. Now Bing detects if
 ## Execute these commands in the terminal:
 `pip install pyautogui`
 `pip install keyboard`
-### Create a project in your compiler with the autobingsearch.py file and the words.txt file. Execute with your cursor on the bing search bar. 
+Create a project in your compiler with the autobingsearch.py file and the words.txt file. Execute with your cursor on the bing search bar. 
 # Customization
 ## You can change the delay for the first click and for the next search:
 ### First click:
