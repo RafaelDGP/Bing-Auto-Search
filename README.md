@@ -8,7 +8,7 @@ It works by writing for you a random combination of letters.
 ## Execute these commands in the terminal:
 - `pip install pyautogui`
 - `pip install keyboard`
-Download both files and run the **autobingsearch.py** in your compiler
+### Download both files and run the **autobingsearch.py** in your compiler
 > [!NOTE]
 > If it doesn't work, try putting both files in a folder and opening the folder in your compiler.
 
