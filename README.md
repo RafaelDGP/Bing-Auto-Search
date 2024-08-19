@@ -6,6 +6,7 @@ It works by writing for you a random combination of letters. Now Bing detects if
 Download both files and run the **autobingsearch.py** in your compiler
 > [!NOTE]
 > If it doesn't work, try putting both files in a folder and opening the folder in your compiler.
+
 > [!IMPORTANT]
 > **Execute with your cursor on the Bing search bar.**
 ## Execute these commands in the terminal:
