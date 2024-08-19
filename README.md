@@ -13,8 +13,8 @@ Create a project in your compiler with the **autobingsearch.py** file and the **
 > [!NOTE]
 > ## You can change the delay for the first click and for the next search:
 > ### First click:
-> - `click_interval = [AMOUNT OF DELAY]`
+> - `click_interval = [SECONDS]`
 > ### Line 26: Amount of time with the search open
-> - `time.sleep([AMOUNT OF DELAY])`
+> - `time.sleep([SECONDS])`
 > ### Line 32: Amount of time to write the next search
-> - `time.sleep([AMOUNT OF DELAY])`
+> - `time.sleep([SECONDS])`
