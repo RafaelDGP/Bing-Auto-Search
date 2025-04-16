@@ -20,7 +20,7 @@ It works by writing for you a random combination of letters.
 > ## You can change the delay for the first click and for the next search:
 > ### First click:
 > - `click_interval = [SECONDS]`
-> ### Line 26: Amount of time with the search open
+> ### Amount of time with the search open:  
 > - `time.sleep([SECONDS])`
-> ### Line 32: Amount of time to write the next search
+> ### Amount of time to write the next search:  
 > - `time.sleep([SECONDS])`
