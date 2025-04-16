@@ -14,6 +14,7 @@ It works by writing for you a random combination of letters.
 
 > [!IMPORTANT]
 > **Execute with your cursor on the Bing search bar.**
+> Press 'Q' to start and 'E' to stop.
 # Customization
 > [!NOTE]
 > ## You can change the delay for the first click and for the next search:
